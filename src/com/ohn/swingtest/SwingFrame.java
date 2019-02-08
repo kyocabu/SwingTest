@@ -28,6 +28,7 @@ public class SwingFrame extends JFrame implements ActionListener {
 		setBounds(300, 300, 800, 600);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+		// タイマーの生成
 		time = new Timer(100, this);
 
 		icon = new ImageIcon[3];
@@ -68,8 +69,8 @@ public class SwingFrame extends JFrame implements ActionListener {
 			if (counter != icon.length - 1) {
 				counter++;
 			} else {
-				counter = 0;
 				time.stop();
+				counter = 0;
 			}
 		}
 
