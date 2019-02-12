@@ -21,7 +21,7 @@ public class SwingFrame extends JFrame implements ActionListener {
 	Timer time;
 	JPanel p;
 
-	int counter = 0; //test
+	int counter = 0; //test２
 
 	public SwingFrame(String title) {
 		//setVisible(true);
