@@ -21,9 +21,10 @@ public class SwingFrame extends JFrame implements ActionListener {
 	Timer time;
 	JPanel p;
 
-	int counter = 0;
+	int counter = 0; //test
 
 	public SwingFrame(String title) {
+		//setVisible(true);
 		setTitle(title);
 		setBounds(300, 300, 800, 600);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -53,8 +54,8 @@ public class SwingFrame extends JFrame implements ActionListener {
 	}
 
 	public static void main(String[] args) {
-		sf = new SwingFrame("Test");
-		sf.setVisible(true);
+		new SwingFrame("Test").setVisible(true);
+//		sf.setVisible(true);
 	}
 
 	@Override
