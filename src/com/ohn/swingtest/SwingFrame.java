@@ -20,6 +20,7 @@ public class SwingFrame extends JFrame implements ActionListener {
 	ImageIcon[] icon;
 	Timer time;
 	JPanel p;
+	//
 
 	int counter = 0; //test２
 
